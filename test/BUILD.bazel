@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
+cc_test(
+    name = "class_concept_check_test",
+    srcs = ["class_concept_check_test.cpp"],
+    deps = ["//:concept_check"],
+)
